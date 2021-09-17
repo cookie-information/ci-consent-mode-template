@@ -1,0 +1,5 @@
+homepage: "https://cookieinformation.com"
+documentation: "https://support.cookieinformation.com"
+versions:
+  - sha: 2efb801aa8c747545367d8905e2914ef5839a51a
+    changeNotes: Initial release of the Cookie Information Consent Mode Tag Template.
