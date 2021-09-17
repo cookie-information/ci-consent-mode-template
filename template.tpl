@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Cookie Information Consent Mode",
+  "categories": ["TAG_MANAGEMENT", "ADVERTISING", "ANALYTICS"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
