@@ -302,6 +302,13 @@ ___TEMPLATE_PARAMETERS___
     "subParams": [
       {
         "type": "CHECKBOX",
+        "name": "inject_consent_banner",
+        "checkboxText": "Add Cookie Information Consent Banner",
+        "simpleValueType": true,
+        "help": "If you have already added the consent banner script to your website code, leave this option unticked. If your site has a multi-language option, you will only be able to display the consent banner in the default language you specify in the Cookie Information platform."
+      },
+      {
+        "type": "CHECKBOX",
         "name": "url_passthrough",
         "checkboxText": "Ad Click Info in URLs",
         "simpleValueType": true
@@ -338,8 +345,10 @@ const onFailure = () => {
   data.gtmOnFailure();
 };
 
-const consentBanner = injectScript('https://policy.app.cookieinformation.com/uc.js', onSuccess, onFailure);
+if (data.inject_consent_banner === true) {
+  injectScript('https://policy.app.cookieinformation.com/uc.js', onSuccess, onFailure);
 gtagSet('developer_id.dNmIyNz', true);
+}
 
 if (data.url_passthrough) gtagSet('url_passthrough', true);
 if (data.ads_data_redaction) gtagSet('ads_data_redaction', true);
@@ -785,6 +794,10 @@ ___WEB_PERMISSIONS___
               {
                 "type": 1,
                 "string": "ads_data_redaction"
+              },
+              {
+                "type": 1,
+                "string": "inject_consent_banner"
               }
             ]
           }
