@@ -16,7 +16,7 @@ homepage: "https://www.cookieinformation.com"
 documentation: "https://www.support.cookieinformation.com"
 versions:
   # Latest version
-  - sha: dc09ee9911a09650cac09b5dd98ebcc1a0b41efc
+  - sha: b1cb20e3ab32ea455a74d3566227f36ac370ecf0
     changeNotes: |3
       Restructured template. 
       Updated API calls with gtagSet.
