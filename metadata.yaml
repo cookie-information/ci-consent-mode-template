@@ -1,4 +1,4 @@
-# Copyright 2021 Cookie Information
+# Copyright 2022 Cookie Information
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,5 +15,13 @@
 homepage: "https://www.cookieinformation.com"
 documentation: "https://www.support.cookieinformation.com"
 versions:
+  # Latest version
+  - sha: dc09ee9911a09650cac09b5dd98ebcc1a0b41efc
+    changeNotes: |3
+      Restructured template. 
+      Updated API calls with gtagSet.
+      Made fields more concise with extra help text.
+      Added option to set consent banner via template.
+  # Older versions
   - sha: 22702711b58bb775e00819276298c229db8251d4
     changeNotes: Initial release of the Cookie Information Consent Mode Tag Template with a few small tweaks
