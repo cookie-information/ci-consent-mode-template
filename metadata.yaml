@@ -17,7 +17,7 @@ documentation: "https://www.support.cookieinformation.com"
 versions:
   # Latest version
   - sha: b1cb20e3ab32ea455a74d3566227f36ac370ecf0
-    changeNotes: |3
+    changeNotes: |2
       Restructured template. 
       Updated API calls with gtagSet.
       Made fields more concise with extra help text.
