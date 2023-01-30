@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: "https://www.cookieinformation.com"
-documentation: "https://www.support.cookieinformation.com"
+documentation: "https://support.cookieinformation.com"
 versions:
   # Latest version
   - sha: 90adea310a1bc13d8aff5ab797009f133c416863
