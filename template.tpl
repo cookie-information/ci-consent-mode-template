@@ -173,7 +173,8 @@ ___TEMPLATE_PARAMETERS___
               "name": "regions",
               "displayName": "regions",
               "simpleValueType": true,
-              "defaultValue": "all"
+              "defaultValue": "all",
+              "help": "Use comma-separation to add more regions per line."
             },
             "isUnique": false
           },
